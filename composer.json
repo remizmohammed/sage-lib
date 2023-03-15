@@ -1,5 +1,6 @@
 {
   "name": "roots/sage-lib",
+  "version": "dev-master2",
   "license": "MIT",
   "description": "Library files for Sage Starter Theme",
   "homepage": "https://roots.io/sage/",
