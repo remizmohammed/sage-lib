@@ -35,11 +35,7 @@ class BladeProvider extends ViewServiceProvider
     {
         $this->registerFilesystem();
         $this->registerEvents();
-        $this->registerEngineResolver();
-        $this->registerViewFinder();
-        $this->registerFactory();
-        //$this->registerBladeCompiler();
-        return $this;
+				parent::register();
     }
 
     /**
